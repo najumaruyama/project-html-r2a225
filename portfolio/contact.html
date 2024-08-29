@@ -1,0 +1,35 @@
+<!--作成日：2024/08/26-->
+<!--作成者：丸山　撫樹-->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="ensyu09_4.css"/>
+  </head>
+  <body>
+    <div class="header">
+    <h2>CONTACT</h2>
+    </div>
+    <form action="#">
+      <div class="contact-form">
+    <div class="contact-item">
+      <p>お名前<span class="must">必須</span></p>
+    <input type="text" name="username"/>
+    </div>
+      <p>メールアドレス<span class="must">必須</span></p>
+    <input type="email" name="mail"/>
+    </div>
+    <div class="contact-item">
+    <p class="form-title">お問い合わせ<span class="must">必須</span></p>
+    <textarea name="remarks" cols="40" rows="4" maxlength="40"></textarea>
+    </div>
+    <br/>
+    <div class="btn-item">
+    <input class="btn" type="submit" onclick="alert('send now!'); return false;" value="送信">
+    </div>
+    </div>
+    </form>
+  </body>
+</html>
